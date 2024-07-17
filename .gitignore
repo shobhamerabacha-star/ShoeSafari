@@ -18,12 +18,10 @@ yarn-debug.log*
 yarn-error.log*
 
 # IDE files
-.vscode
 .idea
 .DS_Store
 
 # Local environment variables
-.env.local
 .env.development.local
 .env.test.local
 .env.production.local
@@ -31,3 +29,4 @@ yarn-error.log*
 # Miscellaneous
 *.log
 *.lock
+config.bat
