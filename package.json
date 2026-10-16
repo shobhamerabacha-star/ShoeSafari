@@ -18,11 +18,11 @@
     "web3"
   ],
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
+    "dev": "node init && next dev",
+    "build": "node init && next build",
     "prebuild": "npm run validate:production-env",
     "validate:production-env": "node scripts/validate-production-env.mjs",
-    "start": "next start",
+    "start": "node init && next start",
     "lint": "next lint",
     "lint:fix": "next lint --fix",
     "type-check": "tsc --noEmit --skipLibCheck",
